@@ -1,10 +1,16 @@
 // FORK this starter file and save it to your own Repl.it account.
+/* 4.10.5. Bonus Mission
+Use readline-sync to prompt the user to enter the value for astronautCount. */
+
+//code required for 'BONUS MISSION'
+
+const input = require('readline-sync');
 
 
 // Declare and initialize the 12 variables here:
 let date = "Monday 2019-03-18";
 let time = "10:05:34 AM";
-let astronautCount = 7;
+let astronautCount = input.question("How many astronauts are there on this mission? ");
 let astronautStatus = "ready";
 let averageAstronautMassKg = 80.7;
 let crewMassKg = astronautCount * averageAstronautMassKg;
