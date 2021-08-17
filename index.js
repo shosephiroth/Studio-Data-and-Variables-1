@@ -15,9 +15,50 @@ let fuelTempCelsius = -225;
 let fuelLevel = "100%";
 let weatherStatus = "clear";
 
+// additiona supporting variables
+let line = "-------------------------------------";
+
+
 
 
 // Write code to generate the LC04 report here:
+console.log(line);
+console.log("> LC04 - LAUNCH CHECKLIST")
+console.log(line);
+console.log("Date:", date);
+console.log("Time:", time);
+console.log();
+console.log(line);
+console.log("> ASTRONAUT INFO");
+console.log(line);
+console.log("* count:", astronautCount);
+console.log("* status:", astronautStatus);
+console.log();
+console.log(line);
+console.log("> FUEL DATA");
+console.log(line);
+console.log("* Fuel temp celsius:", fuelTempCelsius, "C");
+console.log("* Fuel level:", fuelLevel);
+console.log();
+console.log(line);
+console.log("> MASS DATA");
+console.log(line);
+console.log("* Crew mass:", crewMassKg, "kg");
+console.log("* Fuel mass", fuelMassKg, "kg");
+console.log("* Shuttle mass:", shuttleMassKg, "kg");
+console.log("* Total mass:", totalMassKg, "kg");
+console.log();
+console.log(line);
+console.log("> FLIGHT PLAN");
+console.log(line);
+console.log("* weather:", weatherStatus);
+console.log();
+console.log(line);
+console.log("> OVERALL STATUS");
+console.log(line);
+console.log("* Clear for takeoff: YES");
+
+
 
 
 
